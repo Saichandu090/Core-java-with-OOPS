@@ -7,6 +7,13 @@ public class ThisKeyword
         this.company=company;
     }
 
+    ThisKeyword()
+    {
+        this("BriskPe");
+        System.out.println("Chaining");
+        this.call();
+    }
+
     public void call()
     {
         String company="GoBrisk";
@@ -16,11 +23,11 @@ public class ThisKeyword
 
         System.out.println(this.company);
     }
+
+
     public static void main(String[] args) {
 
-        ThisKeyword t=new ThisKeyword("BriskPe");
-
-        t.call();
+        ThisKeyword t=new ThisKeyword();
     }
 }
 
