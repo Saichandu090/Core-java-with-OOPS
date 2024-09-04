@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527043e7-910c-4b44-b0c4-41bb327620ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodOverRiding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,6 +40,7 @@
     "Application.B.executor": "Run",
     "Application.C.executor": "Run",
     "Application.Constructor.executor": "Run",
+    "Application.D.executor": "Run",
     "Application.MethodOverloading.executor": "Run",
     "Application.ObjectAndClass.executor": "Run",
     "Application.StaticKeyWord.executor": "Run",
@@ -48,7 +50,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.D">
+  <component name="RunManager" selected="Application.Impl">
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C" />
       <module name="Day-2" />
@@ -63,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Impl" />
+      <module name="Day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Impl" />
         <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
       </list>
