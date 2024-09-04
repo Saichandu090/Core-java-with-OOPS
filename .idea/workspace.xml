@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527043e7-910c-4b44-b0c4-41bb327620ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StaticKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThisKeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     "Application.MethodOverloading.executor": "Run",
     "Application.ObjectAndClass.executor": "Run",
     "Application.StaticKeyWord.executor": "Run",
+    "Application.ThisKeyword.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature",
     "kotlin-language-version-configured": "true"
