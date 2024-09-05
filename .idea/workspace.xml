@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527043e7-910c-4b44-b0c4-41bb327620ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FinalKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InstanceBlockInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InstanceofOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RunTimePolymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectCloning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +44,7 @@
   "keyToString": {
     "Application.B.executor": "Run",
     "Application.C.executor": "Run",
+    "Application.Cherry.executor": "Run",
     "Application.Constructor.executor": "Run",
     "Application.D.executor": "Run",
     "Application.FinalKeyword.executor": "Run",
@@ -61,6 +55,7 @@
     "Application.Many.executor": "Run",
     "Application.MethodOverloading.executor": "Run",
     "Application.ObjectAndClass.executor": "Run",
+    "Application.ObjectCloning.executor": "Run",
     "Application.Second.executor": "Run",
     "Application.StaticKeyWord.executor": "Run",
     "Application.ThisKeyword.executor": "Run",
@@ -69,7 +64,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bean">
+  <component name="RunManager" selected="Application.Cherry">
     <configuration name="Bean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bean" />
       <module name="Day-2" />
@@ -77,15 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalKeyword" />
-      <module name="Day-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mains" />
+    <configuration name="Cherry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cherry" />
       <module name="Day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,6 +81,13 @@
     </configuration>
     <configuration name="Many" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Many" />
+      <module name="Day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectCloning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectCloning" />
       <module name="Day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cherry" />
+        <item itemvalue="Application.ObjectCloning" />
         <item itemvalue="Application.Bean" />
         <item itemvalue="Application.Many" />
         <item itemvalue="Application.Second" />
-        <item itemvalue="Application.Mains" />
-        <item itemvalue="Application.FinalKeyword" />
       </list>
     </recent_temporary>
   </component>
