@@ -13,7 +13,7 @@ public class StaticKeyWord
     }
 
     static {
-        System.out.println("Hey this is second");
+        System.out.println("RangeRover this is second");
     }
     public static void main(String[] args)
     {

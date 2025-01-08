@@ -6,7 +6,7 @@ public class ObjectCloning
 
         ObjectCloning o=new ObjectCloning();
         o.x=21;
-        o.y="Hey";
+        o.y="RangeRover";
 
         ObjectCloning o1=o;
 

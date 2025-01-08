@@ -5,32 +5,32 @@ public class Inheritance
     String jobRole="BackEnd Developer";
 }
 
-class B extends Inheritance
+class Ball extends Inheritance
 {
     public static void main(String[] args) {
-        B b=new B();
+        Ball ball =new Ball();
         System.out.println("Single level Inheritance");
-        System.out.println("Id :"+b.id);
-        System.out.println("Role :"+b.jobRole);
+        System.out.println("Id :"+ ball.id);
+        System.out.println("Role :"+ ball.jobRole);
     }
 }
 
-class C extends B
+class Cricket extends Ball
 {
     public static void main(String[] args) {
         System.out.println("Multi level Inheritance ");
-        C c=new C();
-        System.out.println(c.id+" "+c.jobRole);
+        Cricket cricket =new Cricket();
+        System.out.println(cricket.id+" "+ cricket.jobRole);
     }
 }
 
 
-class D extends B
+class Dravid extends Ball
 {
     public static void main(String[] args) {
 
         System.out.println("Hirarichal level Inheritance");
-        D d=new D();
+        Dravid d=new Dravid();
         System.out.println(d.id+"::"+d.jobRole);
     }
 }

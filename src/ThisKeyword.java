@@ -9,14 +9,14 @@ public class ThisKeyword
 
     ThisKeyword()
     {
-        this("BriskPe");
+        this("IDeaS");
         System.out.println("Chaining");
         this.call();
     }
 
     public void call()
     {
-        String company="GoBrisk";
+        String company="IDeaS";
         System.out.println(company);
 
         System.out.println("=======");

@@ -14,9 +14,9 @@ public class StaticBinding
 class Second
 {
     public static void main(String[] args) {
-        StaticBinding s=new StaticBinding();
-        s.eat();
-        s.eat("Banana");
+        StaticBinding staticBinding =new StaticBinding();
+        staticBinding.eat();
+        staticBinding.eat("Banana");
     }
 }
 

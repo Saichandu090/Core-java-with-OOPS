@@ -6,17 +6,17 @@ public class Constructor
         System.out.println("Non-Parameterized Custom Constructor");
     }
 
-    Constructor(int n)
+    Constructor(int number)
     {
         System.out.println("Parameterized Custom Constructor");
     }
 
     public static void main(String[] args) {
 
-        Constructor c=new Constructor();
+        Constructor constructor1=new Constructor();
 
         System.out.println("===========");
 
-        Constructor c2=new Constructor(4);
+        Constructor constructor2=new Constructor(4);
     }
 }

@@ -20,15 +20,15 @@ public class MethodOverloading
 
     public static void main(String[] args) {
 
-        MethodOverloading m=new MethodOverloading();
-        m.checkBalance();
-        m.checkBalance(5000);
-        m.checkBalance(1000.0);
+        MethodOverloading overloading=new MethodOverloading();
+        overloading.checkBalance();
+        overloading.checkBalance(5000);
+        overloading.checkBalance(1000.0);
 
         System.out.println("============");
-        MethodOverloading m2=new MethodOverloading();
-        m2.checkBalance();
-        m2.checkBalance(5600);
-        m2.checkBalance(256.32);
+        MethodOverloading overloading1=new MethodOverloading();
+        overloading1.checkBalance();
+        overloading1.checkBalance(5600);
+        overloading1.checkBalance(256.32);
     }
 }
