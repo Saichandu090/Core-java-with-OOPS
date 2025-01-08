@@ -86,8 +86,8 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/marri/BridgeLabz-Training/Day-2"
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Cherry">
+}</component>
+  <component name="RunManager" selected="Application.ThisKeyword">
     <configuration name="Bean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bean" />
       <module name="Day-2" />
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cherry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cherry" />
+    <configuration name="Mains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mains" />
       <module name="Day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,5 +154,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
