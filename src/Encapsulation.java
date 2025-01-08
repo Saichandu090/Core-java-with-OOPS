@@ -26,10 +26,10 @@ class Bean
 {
     public static void main(String[] args) {
 
-        Encapsulation e=new Encapsulation();
-        e.setId(237);
-        e.setName("Chandu");
-        System.out.println(e.getId()+","+e.getName());
+        Encapsulation encapsulation =new Encapsulation();
+        encapsulation.setId(237);
+        encapsulation.setName("Chandu");
+        System.out.println(encapsulation.getId()+","+ encapsulation.getName());
 
         Encapsulation e1=new Encapsulation();
         e1.setName("Jenny");

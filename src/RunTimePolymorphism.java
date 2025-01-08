@@ -6,7 +6,7 @@ public class RunTimePolymorphism
     }
 }
 
-class Mains extends RunTimePolymorphism  //Rule-1 IS-A(inheritance)
+class Mains extends RunTimePolymorphism  //Rule-1 IS-Bmw(inheritance)
 {
 
     @Override  //Rule-2 OverRide

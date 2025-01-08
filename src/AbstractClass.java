@@ -1,10 +1,10 @@
 public abstract class AbstractClass
 {
-    int a;
+    int animal;
 
-    AbstractClass(int a)
+    AbstractClass(int animal)
     {
-        this.a=a;
+        this.animal = animal;
     }
 
     public void see()

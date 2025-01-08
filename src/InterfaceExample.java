@@ -4,7 +4,7 @@ public interface InterfaceExample
 
     void add(int a,int b);
 
-    //No constuctor and can't create an Object in Interface.
+    //No constructor and can't create an Object in Interface.
     //All variables are by default public static final
     //All Methods are by default public abstract.
     //No concrete methods are allowed in Interface.

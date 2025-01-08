@@ -3,42 +3,40 @@ public class InstanceofOperator
     int a=21;
 }
 
-class Hi extends InstanceofOperator
+class Ferrari extends InstanceofOperator
 {
-    String b="Hey all!!";
+    String b="RangeRover all!!";
 }
 
-class Hey extends InstanceofOperator
+class RangeRover extends InstanceofOperator
 {
     double sal=45.6;
 }
 
-class Many
+class MainForInstanceOf
 {
+    static void hey(InstanceofOperator object) {
 
-    static void hey(InstanceofOperator s) {
-
-        if (s instanceof Hey)
+        if (object instanceof RangeRover)
         {
-            Hey h = (Hey) s;
+            RangeRover h = (RangeRover) object;
             System.out.println(h.sal);
         }
-        else if (s instanceof Hi)
+        else if (object instanceof Ferrari ferrari)
         {
-             Hi i = (Hi)s;
-            System.out.println(i.b);
+            System.out.println(ferrari.b);
         }
-        else if (s instanceof InstanceofOperator)
+        else if (object != null)
         {
-           InstanceofOperator l=(InstanceofOperator)s;
-           System.out.println(l.a);
+           InstanceofOperator normalObj=(InstanceofOperator) object;
+           System.out.println(normalObj.a);
         }
     }
     public static void main(String[] args) {
 
-        hey(new Hi());
+        hey(new Ferrari());
 
-        hey(new Hey());
+        hey(new RangeRover());
 
         hey(new InstanceofOperator());
     }

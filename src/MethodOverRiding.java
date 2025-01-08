@@ -20,8 +20,8 @@ class Impl implements MethodOverRiding
 
     public static void main(String[] args) {
 
-        Impl a=new Impl();
-        a.add();
-        a.sub();
+        Impl impl=new Impl();
+        impl.add();
+        impl.sub();
     }
 }
